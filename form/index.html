@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Signup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <div class="form-box login">
+                <h2>Login</h2>
+                <form id="loginForm">
+                    <div class="input-group">
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="password" placeholder="Password" required>
+                    </div>
+                    <button type="submit" class="btn">Login</button>
+                    <p class="toggle">Don't have an account? <span id="showSignup">Sign Up</span></p>
+                </form>
+            </div>
+
+            <div class="form-box signup">
+                <h2>Sign Up</h2>
+                <form id="signupForm">
+                    <div class="input-group">
+                        <input type="text" placeholder="Full Name" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="password" placeholder="Password" required>
+                    </div>
+                    <button type="submit" class="btn">Sign Up</button>
+                    <p class="toggle">Already have an account? <span id="showLogin">Login</span></p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
